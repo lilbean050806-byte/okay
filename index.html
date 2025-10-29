@@ -1,3 +1,5 @@
+<!--This recipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,103 +19,99 @@ body {
 
 h1 {
   font-family: "Oswald", sans-serif;
-  text-align: center;
+  text-align: left;
+  color: #324c6e;
 }
 
+  h3 {
+  color: #324c6e;   
+  }
+  
+  h2 {
+    color: #324c6e;  
+    
+  }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex; 
   justify-content: center;
-  gap: 20px;
+  gap: 0px;
 }
 
-nav ul li a {
-  text-decoration: none; 
-  color: #adb;
+ul.ingredients {
+  list-style-type: disc;
+  margin-left: 30px;
+  padding-left: 20px;
+  margin-top: 0; 
+  display: block;
 }
 
-nav ul li a:hover {
-  color: darkblue;
+.ingredients-header {
+  color: #324c6e;
+  margin-top: 140px; 
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding: 10px;
-  margin-bottom: 40px;
+  gap: 0px;
+  padding: 40px;
+  margin-bottom: 0px;
 }
 
 .container div {
   background-color: #abd;
-  border: 1px solid #ccc;
+  border: 0px solid #abd;
   padding: 10px;
   color: #fff;
-  text-align: center;
+  text-align: left;
 }
+  
 
 .container img {
   width: 100%;
   height: auto;
 }
-
-footer {
-  text-align: center;
-  background-color: #ffa;
-  color: black;
-  padding: 15px;
-  margin-top: 40px;
-}
 </style>
 </head>
 
 <body>
-<h1 id="site-title">Greg’s Banh Mi</h1>
-
-<nav>
-<ul>
-  <li><a href="#">HOME</a></li>
-  <li><a href="#">MENU</a></li>
-  <li><a href="#">ABOUT</a></li>
-  <li><a href="#">CONTACT</a></li>
-</ul>
-</nav>
-
-<h1>At Greg's Banh Mi, we're serving up the perfect marriage of French and Vietnamese culinary traditions—crispy-on-the-outside, pillowy-on-the-inside baguettes loaded with bold, fresh flavors that'll make your taste buds sing.</h1>
-
 <div class="container">
   <div>
-    <img src="banh-mi.jpg" alt="Classic Pork Banh Mi">
-    <h2>Classic Pork Banh Mi</h2>
-    <p>Tender marinated pork topped with crisp pickled vegetables, fresh cilantro, and a smear of pâté on a perfectly crusty baguette.</p>
+    <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
+
+    <h3>By: Martha Rose Shulman</h3>
+    <h3>Yield: 3 Servings</h3>
+
+    <h2 class="ingredients-header">Ingredients</h2>
+    <ul class="ingredients">
+      <li>1 tablespoon canola oil</li>
+      <li>½ pound tofu, cut in small dice</li>
+      <li>1 large garlic clove, minced</li>
+      <li>1 teaspoon grated or minced fresh ginger</li>
+      <li>¼ teaspoon red chili flakes</li>
+      <li>Soy sauce to taste</li>
+      <li>16-ounce bag baby spinach, rinsed</li>
+      <li>2 tablespoons toasted sesame seeds</li>
+      <li>1 teaspoon sesame oil</li>
+    </ul>
   </div>
 
   <div>
-    <img src="banh-mi.jpg" alt="Tofu Banh Mi">
-    <h2>Tofu Banh Mi</h2>
-    <p>Crispy pan-fried tofu glazed in sweet soy sauce, layered with daikon, carrots, and fresh herbs for a vegetarian delight.</p>
-  </div>
+    <img src="recipe-photo-Enhanced-SR.jpg" alt="Spinach, Tofu and Sesame Stir-Fry">
+    <h2>Preparation</h2>
 
-  <div>
-    <img src="banh-mi.jpg" alt="Lemongrass Chicken Banh Mi">
-    <h2>Lemongrass Chicken Banh Mi</h2>
-    <p>Grilled chicken marinated in fragrant lemongrass and garlic, paired with cucumber, jalapeños, and our house mayo.</p>
+    <h3 > Step 1</h3>
+    <p>Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.</p>
+    
+    <h3>Step 2</h3>
+    <p>Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.</p>
+    
+    <h3>Tip</h3>
+    <p>Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>
   </div>
-
-  <div>
-    <img src="banh-mi.jpg" alt="Five-Spice Beef Banh Mi">
-    <h2>Five-Spice Beef Banh Mi</h2>
-    <p>Thinly sliced beef seared with aromatic five-spice blend and served with pickled vegetables and spicy Sriracha mayo.</p>
- </div>
 </div>
-
-<footer>
-  
-  Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.
-</footer>
-
-
 </body>
 </html>
